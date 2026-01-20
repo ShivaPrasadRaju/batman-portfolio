@@ -1,0 +1,201 @@
+.top-container {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .batman-logo {
+  width: 25%;
+  filter: invert(1);
+} */
+
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Abril Fatface", serif;
+  font-size: 5.625rem;
+}
+
+.top-container > p {
+  margin-top: 0;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.top-container > .batman-gif {
+  width: 400px;
+  padding-top: 50px;
+}
+
+.middle-container {
+  padding-top: 50px;
+  text-align: center;
+  /* height: 100vh; */
+}
+
+.profile {
+  height: 100vh;
+}
+
+.profile-pic {
+  width: 25%;
+}
+
+.profile p {
+  font-size: 16px;
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  width: 70%;
+  margin: auto;
+  /* gap: 2rem; */
+
+  align-items: center;
+}
+
+.skill-row {
+  text-align: left;
+}
+
+.skill-row > p {
+  width: 80%;
+  align-items: center;
+}
+
+.rcb-logo {
+  width: 99%;
+  /* height: %; */
+}
+
+.cat-typing-img {
+  width: 70%;
+  height: 90%;
+}
+
+.gym-gif {
+  width: 95%;
+}
+
+hr {
+  border: dotted;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.contact-me > p {
+  text-align: center;
+  width: 30%;
+}
+
+.contact-btn {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.contact-btn:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform 0.2s ease-out;
+  z-index: -1;
+}
+
+.contact-btn:hover:after {
+  transform: translate(0, 0);
+}
+
+.contact-btn:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.contact-btn:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .contact-btn {
+    padding: 0 40px;
+  }
+}
+
+.footer {
+  padding: 50px 0 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.footer-link {
+  color: #116d6e;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #000;
+}
+
+.copyright {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+hr {
+  border: none;
+  border-top: 6px dotted #bdbdbd;
+  width: 6%;
+  margin: 80px auto;
+}
